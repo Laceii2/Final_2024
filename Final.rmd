@@ -46,6 +46,8 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The male popultion and their connection with COVID-19 infection through vaccination or placebo are shown in this plot. 48 according to the graph about 25% of those who took the vaccine actually got COVID-19, so about roughly 75% of those who received a placebo did. COmpared to individuals who received the vaccine alone, almost half of those who took the placebo developed COVID-19. It seems that the vaccine is a good way to guard against covid.
+
 
 ## Females
 
