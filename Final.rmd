@@ -59,6 +59,15 @@ colPerc(table1)
 
 The percentages if males who contracted COVID-19 after receiving the vaccine and a placebo are displayed ib these numerical results. About 25% of the males who received the vaccine developed COVID-19, whereas 75% of males who recieved the placebo developed COVID-19. The vaccination is unquestionably successful in protecting males against Covid-19.
 
+## Inferential
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+Malesfish <- fisher.test(table1)
+Malesfish
+```
+
 ## Females
 
 
