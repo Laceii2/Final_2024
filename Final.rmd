@@ -109,7 +109,7 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
-The female population and its association with COVID-19 infection through vaccination or placebo are shown in this plot. According to the plot above, about 25% of those who received the vaccine actually got OVID-19, where roughly 55% of those who received a placebo did. Compared to individuals who received the vaccine alone, a significantly greater proportion of those who took that placebo ddeveloped COVID-19. It seems that the vaccine is a good way to guard against COVID-19.
+The female population and its association with COVID-19 infection through vaccination or placebo are shown in this plot. According to the plot above, about 35% of those who received the vaccine actually got OVID-19, where roughly 65% of those who received a placebo did. Compared to individuals who received the vaccine alone, a significantly greater proportion of those who took that placebo ddeveloped COVID-19. It seems that the vaccine is a good way to guard against COVID-19.
 
 ## Numerical Results
 
@@ -119,8 +119,18 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
-The percentages of females who contracted COVID-19 after receiving the vaccine and a placebo are displayed in these numerical results. About 25% of the men who receieved the vaccine developed COVID-19, whereas 65% of the women who received the placebo did so. The vaccine is advised since it is evidently effecient in preventing conid-19 in males. The risk of gettung covid-19 was higher for those who took the placebo.
+The percentages of females who contracted COVID-19 after receiving the vaccine and a placebo are displayed in these numerical results. About 35% of the men who receieved the vaccine developed COVID-19, whereas 65% of the women who received the placebo did so. The vaccine is advised since it is evidently effecient in preventing conid-19 in males. The risk of gettung covid-19 was higher for those who took the placebo.
 
+## Inferential
+
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+Femalefish <- fisher.test(table1)
+Femalefish
+```  
+
+The p-value displayed above is at 2.2e-16. This is an okay number. Seeing this number means that these results are likelt to happen by chance.
 
 ## LGBTQ
 
