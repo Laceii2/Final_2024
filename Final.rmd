@@ -119,6 +119,8 @@ rowPerc(table2)
 colPerc(table2)
 ```
 
+The percentages of females who contracted COVID-19 after receiving the vaccine and a placebo are displayed in these numerical results. About 25% of the men who receieved the vaccine developed COVID-19, whereas 65% of the women who received the placebo did so. The vaccine is advised since it is evidently effecient in preventing conid-19 in males. The risk of gettung covid-19 was higher for those who took the placebo.
+
 
 ## LGBTQ
 
