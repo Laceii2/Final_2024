@@ -85,6 +85,10 @@ hi=(Malesfish$conf.int[2]/(Malesfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
+The success rate of the COVID-19 vaccine for men is seen above. The vaccine is considered successful if its efficacy is greater that 50%. We may assume from the above time period that the vaccine effectively prevents males from contracting covid 19. The odds ratio provides an estimate of the vaccine's effectiveness. As can be seen above, the men odds ration is 70. For the men, the efficacy confidence interval is between 68.85 and 78.32
+
 
 ## Females
 
