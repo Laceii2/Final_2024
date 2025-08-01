@@ -144,6 +144,10 @@ hi=(galsfish$conf.int[2]/(galsfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
+## Effectiveness Confidence Interval `r low`  to `r hi`
+
+The COVID-19 effectiveness for girls (females) is shown above. The vaccine is considered successful if its efficacy is greater than 50%. We can conclude that the vaccine is very efficient at preventing COVID-19 in girls based on the interval shown above. 60% or above is a sign of an effective vaccine. The effectiveness of this vaccine in preventing women from contracting COVID-19 is excellent. The odds ratio provides an estimate of the vaccine's effectiveness. As can be seen above, the gals' odds ratio is 67. The females' efficacy confidence interval is from 63.15 to 70.99.
+
 ## LGBTQ
 
 
