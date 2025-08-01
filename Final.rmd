@@ -132,6 +132,14 @@ Femalefish
 
 The p-value displayed above is at 2.2e-16. This is an okay number. Seeing this number means that these results are likelt to happen by chance.
 
+```{r}
+effect <- galsfish$p.value/(galsfish$p.value +1)
+effectivenessgal = galsfish$estimate/(galsfish$estimate +1)*100
+print(effectivenessgal)
+```
+
+
+
 ## LGBTQ
 
 
