@@ -169,6 +169,13 @@ basicCC + geom_bar(stat="identity", position = "dodge")
 
 This barplot shows the percentage of people who got covid-19 versus those who stayed healthy, based on whether they received the vaccine or a placebo, within a population that identifies as gay. The red bars represent the placebo group, and the blue bars represent the vaccine group. A much higher percentage of the placebo group got covid-19 compared to the vaccine group, showing that the vaccine was effective in reducing infections. This is the second of two plots. Unlike the first plot (which shows raw counts), this one uses percentages to make it easier to compare between groups.
 
+### Numerical results
+
+```{r}
+table1 <- xtabs(~infected + treatment, data=gay)
+rowPerc(table1)
+colPerc(table1)
+```
 
 ## Druggies
 
