@@ -109,6 +109,8 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+The female population and its association with COVID-19 infection through vaccination or placebo are shown in this plot. According to the plot above, about 25% of those who received the vaccine actually got OVID-19, where roughly 55% of those who received a placebo did. Compared to individuals who received the vaccine alone, a significantly greater proportion of those who took that placebo ddeveloped COVID-19. It seems that the vaccine is a good way to guard against COVID-19.
+
 ## LGBTQ
 
 
