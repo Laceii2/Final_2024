@@ -250,7 +250,17 @@ drugfish
 
 The chi-square test produces a p-value of 0.002, which is very small. This indicates that the observed association between treatment (vaccine vs. placebo) and COVID-19 infection among drug users is unlikely to have occurred by chance. Fisher’s Exact Test estimates an odds ratio of approximately 1.8, meaning drug users who received the vaccine were about half as likely to contract COVID-19 compared to those who took the placebo. Based on these results, we reject the null hypothesis of no association and accept the alternative hypothesis: the vaccine is effective in reducing the risk of COVID-19 infection among drug users.
 
+```{r}
+effect <- drugfish$p.value/(drugfish$p.value +1)
+effectivenessdrug = drugfish$estimate/(drugfish$estimate +1)*100
+print(effectivenessdrug)
+```
 
+```{r}
+low=(drugfish$conf.int[1]/(drugfish$conf.int[1] +1))*100
+hi=(drugfish$conf.int[2]/(drugfish$conf.int[2] +1))*100
+options(digits=2)
+```
 
 
 
