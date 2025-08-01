@@ -70,6 +70,14 @@ Malesfish
 
 The p-valuse displayed abaove is at 2.2e-16. This number is acceptable. This number shows that these outcomes are probably the result of chance.
 
+
+```{r}
+effect <- Malesfish$p.value/(Malesfish$p.value +1)
+effectivenessMales = Malesfish$estimate/(Malesfish$estimate +1)*100
+print(effectivenessMales)
+```
+
+
 ## Females
 
 
