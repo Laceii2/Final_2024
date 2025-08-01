@@ -179,7 +179,14 @@ colPerc(table1)
 
 This shows that the vaccine significantly reduced the risk of infection among gay participants. It was highly effective compared to the placebo. The odds of getting covid-19 with the placebo were much higher, meaning the vaccine helped protect against infection — not the opposite. Therefore, the data supports the use of the vaccine in this group.
 
+### Inferential 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+gaysfish <- fisher.test(table1)
+gaysfish
+```
 
 ## Druggies
 
