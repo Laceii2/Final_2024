@@ -226,4 +226,10 @@ basicCC <- ggplot(dd2,aes(x=infected,y=prcnt*100,fill=treatment))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+This barplot shows the percentage of people who contracted COVID-19 versus those who remained uninfected, based on whether they received the vaccine or a placebo, within a population of individuals who reported drug use. The red bars represent the placebo group, and the blue bars represent the vaccine group. A significantly higher percentage of the placebo group contracted COVID-19 compared to the vaccine group, indicating that the vaccine was effective in reducing infections among drug users. This is the second of two plots. Unlike the first plot, which displays raw counts, this plot uses percentages to better compare infection rates between the treatment groups.
+
+
+
+
+
 # Overall Results and Conclusions
