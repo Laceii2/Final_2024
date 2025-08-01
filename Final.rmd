@@ -79,6 +79,13 @@ print(effectivenessMales)
 
 odds ratio 73.79183
 
+```{r}
+low=(Malesfish$conf.int[1]/(Malesfish$conf.int[1] +1))*100
+hi=(Malesfish$conf.int[2]/(Malesfish$conf.int[2] +1))*100
+options(digits=2)
+```
+
+
 ## Females
 
 
