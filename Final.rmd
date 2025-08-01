@@ -202,8 +202,10 @@ hi=(gaysfish$conf.int[2]/(gaysfish$conf.int[2] +1))*100
 options(digits=2)
 ```
 
+## Effectiveness Confidence Interval `r low`  to `r hi`
 
-
+This shows how well the covid-19 vaccine worked for people who identify as gay. The confidence interval is from 20.51% to 37.97%, which means the vaccine helped reduce the chance of getting covid-19, but not as much as hoped. The odds ratio is 0.29, meaning those who got the vaccine were less likely to get covid-19 than those who got the placebo.
+So even though the vaccine wasn’t super strong in this group, it still offered protection.
 
 
 
