@@ -188,6 +188,21 @@ gaysfish <- fisher.test(table1)
 gaysfish
 ```
 
+The p-value from the Chi-square test is 6e-06, which is extremely small. This means that the differences in infection rates between the vaccine and placebo groups are statistically significant and unlikely to be due to chance alone. The Fisher’s Exact Test reports an odds ratio of 0.4. This means that gay individuals who received the vaccine were 60% less likely to get covid-19 compared to those who received the placebo. Because the p-value is so small, we reject the null hypothesis and accept the alternative: there is a relationship between receiving the vaccine and reduced covid-19 infection.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Druggies
 
 
